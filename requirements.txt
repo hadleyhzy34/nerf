@@ -6,3 +6,6 @@ imageio
 configargparse
 tqdm
 tensorboard
+scikit-image
+lpips
+pytest
