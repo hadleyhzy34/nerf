@@ -13,9 +13,9 @@ import imageio
 from tqdm import tqdm
 
 # Adjust imports based on actual project structure
-from src.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
-from src.utils.ray_utils import get_rays
-from src.utils.image_utils import to_uint8
+from nerf_project.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
+from nerf_project.utils.ray_utils import get_rays
+from nerf_project.utils.image_utils import to_uint8
 
 def parse_render_args():
     """Parses command-line arguments for the rendering script.

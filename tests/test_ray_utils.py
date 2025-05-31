@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 
 # Assuming src is in PYTHONPATH or pytest is run from project root
-from src.utils.ray_utils import get_rays
+from nerf_project.utils.ray_utils import get_rays
 
 @pytest.fixture
 def camera_params_cpu():
