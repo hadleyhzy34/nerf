@@ -19,9 +19,9 @@ import lpips # Requires pip install lpips
 import json
 
 # Adjust imports based on actual project structure
-from src.datasets.blender import BlenderDataset
-from src.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
-from src.utils.image_utils import mse_to_psnr, to_uint8
+from nerf_project.datasets.blender import BlenderDataset
+from nerf_project.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
+from nerf_project.utils.image_utils import mse_to_psnr, to_uint8
 
 
 def parse_eval_args():

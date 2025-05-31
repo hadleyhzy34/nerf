@@ -5,7 +5,7 @@ import pytest
 import numpy as np
 
 # Assuming src is in PYTHONPATH or pytest is run from project root
-from src.models.nerf import PositionalEncoder, NeRF, sample_pdf
+from nerf_project.models.nerf import PositionalEncoder, NeRF, sample_pdf
 
 @pytest.fixture
 def device(request):

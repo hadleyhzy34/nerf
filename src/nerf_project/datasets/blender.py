@@ -9,7 +9,7 @@ import os
 import json
 import numpy as np
 import imageio
-from src.utils.ray_utils import get_rays # Import the moved function
+from nerf_project.utils.ray_utils import get_rays # Import the moved function
 
 class BlenderDataset(torch.utils.data.Dataset):
     """PyTorch Dataset for loading data from the NeRF Blender dataset format.

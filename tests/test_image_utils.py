@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 
 # Assuming src is in PYTHONPATH or pytest is run from project root
-from src.utils.image_utils import mse_to_psnr, to_uint8
+from nerf_project.utils.image_utils import mse_to_psnr, to_uint8
 
 def test_mse_to_psnr_scalar():
     """Test mse_to_psnr with scalar inputs."""

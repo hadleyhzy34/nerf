@@ -27,9 +27,9 @@ import imageio
 from tqdm import tqdm
 
 # Adjust imports based on actual project structure
-from src.datasets.blender import BlenderDataset
-from src.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
-from src.utils.image_utils import mse_to_psnr # Import new utility
+from nerf_project.datasets.blender import BlenderDataset
+from nerf_project.models.nerf import PositionalEncoder, NeRF, render_rays, sample_pdf
+from nerf_project.utils.image_utils import mse_to_psnr # Import new utility
 
 def parse_args():
     """Parses command-line arguments and config file settings.
